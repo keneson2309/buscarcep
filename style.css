@@ -1,0 +1,71 @@
+body{
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    background: #4504f8;
+    color: #535d91;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+#app{
+    background: #fff;
+    border-radius: 0.4rem;
+    padding: 1.5rem 0rem;
+    box-shadow: 10px 10px 11px rgb(248, 252, 3);
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1frm;
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+    justify-items: center;
+}
+
+form input{
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    width: 130px;
+    outline: none;
+    padding: 0;
+}
+
+form input::placeholder{
+    color: #949090;
+}
+
+form button{
+    padding: 0.5rem 2rem;
+    color: rgb(255, 255, 255);
+    border-radius: 5rem;
+    border: none;
+    width: max-content;
+    font-size: 1.3rem;
+    background: linear-gradient(to right, #4091dd, #28b4d2);
+    font-weight: 100;
+    outline: none;
+    cursor: pointer;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transition: all 1s;
+}
+
+p:nth-child(1){
+    padding-top: 2rem;
+
+}
+
+p{
+    color: #4091dd;
+    font-size: 1.5rem;
+    margin: 0.6rem 0;
+}
